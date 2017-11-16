@@ -85,3 +85,5 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Newtonsoft.Json.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.Owin.Security.OAuth.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Newtonsoft.Json.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\log4net.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\log4net.xml
