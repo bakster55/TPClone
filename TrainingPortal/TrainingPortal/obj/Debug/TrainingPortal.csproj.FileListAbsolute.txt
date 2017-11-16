@@ -87,3 +87,15 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.Owin.Securi
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Newtonsoft.Json.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\log4net.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\log4net.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Net4.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Web.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\WebActivatorEx.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Net4.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Web.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Web.xml
