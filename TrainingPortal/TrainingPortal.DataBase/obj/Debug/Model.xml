@@ -166,6 +166,109 @@
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
 		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[AddUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	INSERT INTO [User] VALUES(@name, @email, @passwordHash)
+	SELECT @id = SCOPE_IDENTITY()
+RETURN 0]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[User]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[AddUser].[@name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[AddUser].[@email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[AddUser].[@passwordHash]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[AddUser].[@id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[AddUser].[@id]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[AddUser].[@name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[AddUser].[@email]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[AddUser].[@passwordHash]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="229" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[AddUser]&#xD;&#xA;&#x9;@id INT OUTPUT,&#xD;&#xA;&#x9;@name NVARCHAR(50),&#xD;&#xA;&#x9;@email NVARCHAR(50),&#xD;&#xA;&#x9;@passwordHash NVARCHAR(MAX)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Course]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
@@ -287,12 +390,279 @@
 				</Entry>
 			</Relationship>
 		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GetUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT @id = [User].Id, @email = [User].Email, @name = [User].Name, @passwordHash = [User].PasswordHash FROM [User]
+	WHERE ((@email IS NULL) OR (Email = @email)) AND ((@name IS NULL) OR (Name = @name)) AND ((@id IS NULL) OR (Id = @id))
+RETURN 0]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[User]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GetUser].[@id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GetUser].[@email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GetUser].[@name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GetUser].[@passwordHash]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[PasswordHash]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GetUser].[@email]">
+						<Property Name="IsOutput" Value="True" />
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GetUser].[@name]">
+						<Property Name="IsOutput" Value="True" />
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GetUser].[@passwordHash]">
+						<Property Name="IsOutput" Value="True" />
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GetUser].[@id]">
+						<Property Name="IsOutput" Value="True" />
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="427" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GetUser]&#xD;&#xA;&#x9;@email NVARCHAR(50) = NULL OUTPUT,&#xD;&#xA;&#x9;@name NVARCHAR(50) = NULL OUTPUT,&#xD;&#xA;&#x9;@passwordHash NVARCHAR(MAX) = NULL OUTPUT,&#xD;&#xA;&#x9;@id int = NULL OUTPUT&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UpdateUser]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    UPDATE [User]
+    SET Email=ISNULL(@email,Email), 
+        Name=ISNULL(@name,Name), 
+        PasswordHash=ISNULL(@passwordHash, PasswordHash)
+    WHERE id=@id
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[User]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUser].[@email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUser].[@name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[PasswordHash]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUser].[@passwordHash]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[User].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUser].[@id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUser].[@id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUser].[@email]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUser].[@name]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUser].[@passwordHash]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="338" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[UpdateUser]&#xD;&#xA;    @id int,&#xD;&#xA;    @email nvarchar(50) = NULL,&#xD;&#xA;    @name nvarchar(50) = NULL,&#xD;&#xA;    @passwordHash nvarchar(MAX) = NULL&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
 		<Element Type="SqlTable" Name="[dbo].[User]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
 				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[User].[Id]">
 						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">
@@ -349,24 +719,7 @@
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="50" />
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[User].[Token]">
-						<Property Name="IsNullable" Value="False" />
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="50" />
+									<Property Name="IsMax" Value="True" />
 									<Relationship Name="Type">
 										<Entry>
 											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
