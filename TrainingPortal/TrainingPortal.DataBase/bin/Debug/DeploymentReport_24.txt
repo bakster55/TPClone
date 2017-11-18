@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AddRole] (Procedure)
+       [dbo].[AddUser] (Procedure)
+       [dbo].[AddUserToRole] (Procedure)
+       [dbo].[DeleteUser] (Procedure)
+       [dbo].[DeleteUserFromRole] (Procedure)
+       [dbo].[GetRole] (Procedure)
+       [dbo].[GetUser] (Procedure)
+       [dbo].[GetUserRoles] (Procedure)
+       [dbo].[IsUserInRole] (Procedure)
+       [dbo].[UpdateUser] (Procedure)
+
+** Supporting actions

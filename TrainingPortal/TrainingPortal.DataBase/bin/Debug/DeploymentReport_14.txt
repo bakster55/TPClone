@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Course] (Table)
+       [dbo].[CourseForUser] (Table)
+       [dbo].[User] (Table)
+       [dbo].[User].[IX_Email] (Index)
+       Foreign Key: unnamed constraint on [dbo].[CourseForUser] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CourseForUser] (Foreign Key)
+       [dbo].[AddUser] (Procedure)
+       [dbo].[GetUser] (Procedure)
+       [dbo].[UpdateUser] (Procedure)
+
+** Supporting actions

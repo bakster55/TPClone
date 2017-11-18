@@ -1,0 +1,36 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Course] (Table)
+       [dbo].[CourseForUser] (Table)
+       [dbo].[Role] (Table)
+       [dbo].[User] (Table)
+       [dbo].[User].[IX_Email] (Index)
+       [dbo].[UserRole] (Table)
+       Foreign Key: unnamed constraint on [dbo].[CourseForUser] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CourseForUser] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[UserRole] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[UserRole] (Foreign Key)
+       [dbo].[AddRole] (Procedure)
+       [dbo].[AddUser] (Procedure)
+       [dbo].[AddUserToRole] (Procedure)
+       [dbo].[DeleteRole] (Procedure)
+       [dbo].[DeleteUser] (Procedure)
+       [dbo].[DeleteUserFromRole] (Procedure)
+       [dbo].[GetRole] (Procedure)
+       [dbo].[GetUser] (Procedure)
+       [dbo].[GetUserRoles] (Procedure)
+       [dbo].[IsUserInRole] (Procedure)
+       [dbo].[UpdateRole] (Procedure)
+       [dbo].[UpdateUser] (Procedure)
+
+** Supporting actions
