@@ -1,5 +1,0 @@
-﻿CREATE PROCEDURE [dbo].[DeleteUser]
-	@id INT OUTPUT
-AS
-	DELETE FROM [User] WHERE Id = @id
-RETURN 0
