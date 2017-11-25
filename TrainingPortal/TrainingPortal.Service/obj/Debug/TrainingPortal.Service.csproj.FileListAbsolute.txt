@@ -4,3 +4,4 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\bin\TrainingPorta
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.csproj.CoreCompileInputs.cache
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.csprojResolveAssemblyReference.cache
