@@ -99,3 +99,16 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Net4.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Web.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\StructureMap.Web.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\TrainingPortal.Business.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\TrainingPortal.Client.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\TrainingPortal.Business.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\TrainingPortal.Client.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\TrainingPortal.Client.dll.config
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Razor.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Webpages.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Webpages.Deployment.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Webpages.Razor.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Helpers.resources.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal\bin\ru\System.Web.Mvc.resources.dll

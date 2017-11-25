@@ -1,0 +1,6 @@
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\bin\Debug\TrainingPortal.Business.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\bin\Debug\TrainingPortal.Business.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\obj\Debug\TrainingPortal.Business.csprojResolveAssemblyReference.cache
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\obj\Debug\TrainingPortal.Business.csproj.CoreCompileInputs.cache
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\obj\Debug\TrainingPortal.Business.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Business\obj\Debug\TrainingPortal.Business.pdb
