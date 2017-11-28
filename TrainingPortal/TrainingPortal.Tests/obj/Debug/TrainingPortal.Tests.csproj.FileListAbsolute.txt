@@ -63,7 +63,6 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Owin.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingPortal.Client.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingPortal.Business.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\StructureMap.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
@@ -89,7 +88,6 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingPortal.Client.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingPortal.Client.dll.config
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingPortal.Business.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\StructureMap.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\StructureMap.xml
