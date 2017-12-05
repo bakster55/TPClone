@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Certificate] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Certificate] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Certificate] (Foreign Key)
+       [dbo].[AddCertificate] (Procedure)
+       [dbo].[DeleteCertificate] (Procedure)
+       [dbo].[GetCertificate] (Procedure)
+
+** Supporting actions

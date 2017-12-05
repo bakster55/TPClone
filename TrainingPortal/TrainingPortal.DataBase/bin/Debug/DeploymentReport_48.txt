@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Course] (Foreign Key)
+     Alter
+       [dbo].[Course] (Table)
+       [dbo].[AddCourse] (Procedure)
+       [dbo].[UpdateCourse] (Procedure)
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Course] (Foreign Key)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Course] (Foreign Key)
+     Refresh
+       [dbo].[DeleteCourse] (Procedure)
+       [dbo].[GetCourse] (Procedure)
+       [dbo].[GetCourses] (Procedure)

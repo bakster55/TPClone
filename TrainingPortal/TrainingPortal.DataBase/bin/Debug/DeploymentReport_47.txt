@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Audience] (Table)
+       [dbo].[AddAudience] (Procedure)
+       [dbo].[DeleteAudience] (Procedure)
+       [dbo].[GetAudience] (Procedure)
+       [dbo].[GetAudienceList] (Procedure)
+       [dbo].[UpdateAudience] (Procedure)
+
+** Supporting actions

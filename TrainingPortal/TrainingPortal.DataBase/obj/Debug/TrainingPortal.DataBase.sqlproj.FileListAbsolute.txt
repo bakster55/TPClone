@@ -1,5 +1,9 @@
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\bin\Debug\TrainingPortal.DataBase.dacpac
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\bin\Debug\TrainingPortal.DataBase.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\bin\Debug\TrainingPortal.DataBase.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\Model.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\refactor.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\postdeploy.sql
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\predeploy.sql
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\TrainingPortal.DataBase.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.DataBase\obj\Debug\TrainingPortal.DataBase.pdb

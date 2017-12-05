@@ -1,7 +1,7 @@
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\bin\TrainingPortal.Service.dll.config
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\bin\TrainingPortal.Service.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\bin\TrainingPortal.Service.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.csprojResolveAssemblyReference.cache
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.csproj.CoreCompileInputs.cache
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.pdb
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Service\obj\Debug\TrainingPortal.Service.csprojResolveAssemblyReference.cache
