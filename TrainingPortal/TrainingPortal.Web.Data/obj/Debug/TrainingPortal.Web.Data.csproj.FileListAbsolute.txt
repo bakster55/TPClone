@@ -5,3 +5,12 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\obj\Debug\Traini
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\obj\Debug\TrainingPortal.Web.Data.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\obj\Debug\TrainingPortal.Web.Data.pdb
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\obj\Debug\TrainingPortal.Web.Data.csprojResolveAssemblyReference.cache
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Owin.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Web.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
