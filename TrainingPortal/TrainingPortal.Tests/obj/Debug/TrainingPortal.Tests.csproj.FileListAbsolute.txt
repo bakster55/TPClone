@@ -10,7 +10,6 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\TrainingP
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\WebActivatorEx.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\log4net.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.Owin.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\System.Web.Mvc.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Owin.dll
@@ -56,14 +55,12 @@ D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\System.We
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Newtonsoft.Json.xml
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\System.Web.Mvc.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\Microsoft.AspNet.Identity.Core.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\Microsoft.AspNet.Identity.Owin.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\System.Web.Razor.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\System.Web.WebPages.resources.dll
-D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\obj\Debug\TrainingPortal.Tests.csprojResolveAssemblyReference.cache
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\obj\Debug\TrainingPortal.Tests.csproj.CoreCompileInputs.cache
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\obj\Debug\TrainingPortal.Tests.dll
 D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\obj\Debug\TrainingPortal.Tests.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Castle.Core.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Moq.dll
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Castle.Core.xml
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Moq.pdb
+D:\CSharp\TrainingPortal\TrainingPortal\TrainingPortal.Tests\bin\Debug\Moq.xml
