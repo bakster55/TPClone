@@ -31,20 +31,50 @@
 			@Html.DisplayFor(model => model.Category.Name)
 		</dd>
 
+		<dt>
+			@Html.DisplayNameFor(model => model.Audience)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Audience.Name)
+		</dd>
+
+		@if (User.Identity.IsAuthenticated)
+		{
+			<dt>
+			</dt>
+			<dd>
+				@if (ViewBag.HasCertificate == true)
+				{
+					@Html.ActionLink("Сертификат", "Details", "Certificate", new { courseId = Model.Id }, new { @class = "btn btn-primary", @style = "margin-top:20px;" })
+				}
+				else
+				{
+					@Html.ActionLink("Пройти курс", "TakeCourse", "Lesson", new { courseId = Model.Id }, new { @class = "btn btn-primary", @style = "margin-top:20px;" })
+				}
+			</dd>
+		}
+
 		<hr />
 
-		<dt>Lessons:</dt>
-		<dd>
-			[@Html.ActionLink("Change lessons", "Index", "Lesson",new { courseId = Model.Id }, null)]
-		</dd>
+		@if (User.Identity.IsAuthenticated && (User.IsInRole("admin") || User.IsInRole("editor")))
+		{
+			<dt>Lessons:</dt>
+			<dd>
+				[@Html.ActionLink("Change lessons", "Index", "Lesson", new { courseId = Model.Id }, null)]
+			</dd>
 
-		<dt>Tests:</dt>
-		<dd>
-			[@Html.ActionLink("Change tests", "Index", "Test", new { courseId = Model.Id }, null)]
-		</dd>
+			<dt>Tests:</dt>
+			<dd>
+				[@Html.ActionLink("Change tests", "Index", "Test", new { courseId = Model.Id }, null)]
+			</dd>
+		}
 	</dl>
 </div>
 <p>
-	@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+	@if (User.Identity.IsAuthenticated && (User.IsInRole("admin") || User.IsInRole("editor")))
+	{
+		@Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+		@:|
+	}
 	@Html.ActionLink("Back to List", "Index")
 </p>
